@@ -1,0 +1,230 @@
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 20px 42px 20px 42px;
+    margin-top: 20px;
+    background-color: rgb(255 0 0 / 19%);
+}
+
+#container2>h2 {
+    color: green;
+    padding: 20px;
+}
+
+#container2>div>h2 {
+    color: #28a745;
+    font-size: 30px;
+}
+
+body {
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/03/70/92/9057b6fa2816639.jpg");
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+
+#h2Guardado {
+    font-size: 50px;
+    color: #28a745;
+}
+
+#jsonAca {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 12px;
+    color: red;
+}
+
+#botonEnvio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#seccionRadio {
+    display: flex;
+}
+
+input[type="radio"] {
+    width: max-content;
+}
+
+#seccionRadio>div:nth-child(1) {
+    margin-right: 5px;
+}
+
+#pedidoJquery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 44px;
+}
+
+#ocultarPedido {
+    border-radius: 16px;
+    padding: 0px 14px 0px 14px;
+}
+
+#mostrarPedido {
+    border-radius: 16px;
+    padding: 0px 14px 0px 14px;
+}
+
+#flexBotton {
+    display: flex;
+    flex-direction: row;
+    margin-top: 9px;
+}
+
+input {
+    width: 200px;
+    border-radius: 20px;
+}
+
+#enviado {
+    margin-top: 20px;
+    width: max-content;
+    padding: 5px;
+}
+
+#ocultar {
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgba(255, 0, 0, 0.548);
+    color: #28a745;
+}
+
+#container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#container2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#container3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#pagoDebito {
+    display: flex;
+    flex-direction: column;
+}
+
+#containerPagos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 50px;
+    justify-content: center;
+}
+
+#container2>div>section {
+    display: flex;
+    justify-content: center;
+}
+
+#pagar {
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 9px;
+}
+
+#pedidoJquery>h2 {
+    color: #28a745;
+}
+
+#efectivo {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: white;
+}
+
+#mostrar {
+    padding: 4px;
+    border-radius: 10px;
+    background-color: #28a745;
+}
+
+#h3 {
+    color: red;
+    font-size: 30px
+}
+
+#p {
+    color: red;
+    font-size: 30px;
+}
+
+span {
+    color: #28a745
+}
+
+label {
+    color: #28a745;
+    font-size: 30px
+}
+
+#algo {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    margin-left: 42px;
+    transform: scale(1.9);
+}
+
+#algo2 {
+    height: 100vh;
+    color: red;
+}
+
+#punto {
+    animation: titileo;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    color: red;
+    font-size: 58px;
+    width: auto;
+    height: auto;
+    margin-bottom: 38px;
+}
+
+@keyframes titileo {
+    0% {
+        color: red
+    }
+    50% {
+        color: rgba(255, 0, 0, 0)
+    }
+    100% {
+        color: red;
+    }
+}
+
+#algo1 {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ibb.co%2FKXQ7DrW%2F1-I3-Fgm3-YRe-VG88y-MKQHCr-GQ-1440p.jpg&f=1&nofb=1);
+    height: -webkit-fill-available;
+    width: auto;
+    background-repeat: round;
+}

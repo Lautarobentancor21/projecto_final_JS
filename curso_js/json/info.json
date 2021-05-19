@@ -1,0 +1,25 @@
+[{
+        "hamburguesa": "hamburguesa completa",
+        "precio": 100,
+        "id": 1,
+        "codigo": "completa"
+    },
+    {
+        "hamburguesa": "hamburguesa simple",
+        "precio": 50,
+        "id": 2,
+        "codigo": "simple"
+    },
+    {
+        "hamburguesa": "hamburguesa del dia",
+        "precio": 150,
+        "id": 3,
+        "codigo": "hamburguesa del dia"
+    },
+    {
+        "hamburguesa": "hamburguesa especial",
+        "precio": 300,
+        "id": 4,
+        "codigo": "especial"
+    }
+]
