@@ -61,11 +61,14 @@ $(document).ready(function() {
         $("#jsonAca").css("display", "")
         $("#jsonAca").css("background-color", "#000000e0")
         guardarArray()
+        $(this).prop("disabled", true);
+
     })
 
     $("#ocultar").click(function() {
         $("#jsonAca").empty()
         $("#jsonAca").css("background-color", "")
+        $("#mostrar").prop("disabled", false);
 
     })
 
@@ -76,6 +79,7 @@ $(document).ready(function() {
 
 $("#mostrarPedido").click(function() {
     $("#pedidoJquery").show("slow20ms")
+
 
 })
 $("#ocultarPedido").click(function() {

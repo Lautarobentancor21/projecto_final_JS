@@ -1,7 +1,4 @@
 //-----------------------------------------------------------------------------------------------------------------------------
-
-
-
 //evento de envio de formulario
 $("form").submit(function(e) { //evento submit
     e.preventDefault();
@@ -154,6 +151,7 @@ function guardarArray() {
                                      </div>`)
 
             }
+
         }
     })
 
