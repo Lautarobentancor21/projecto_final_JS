@@ -199,6 +199,11 @@ label {
     color: red;
 }
 
+#form>h3 {
+    color: #28a745;
+    margin-top: 12px;
+}
+
 #punto {
     animation: titileo;
     animation-iteration-count: infinite;
