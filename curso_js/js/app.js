@@ -306,14 +306,25 @@ $("#enviaR").click(() => {
 
 function comprarCompleta() {
 
-    let datos = []
+    let number = $("#inputNumero").val();
+    let name = $("#inputNombre").val();
+    let mes = $("#selectMes").val();
+    let year = $("#selectYear").val();
+    let ccv = $("#inputCCV").val();
 
-    datos.push($("#inputNumero").val())
-    datos.push($("#inputNombre").val())
-    datos.push($("#selectMes").val())
-    datos.push($("#selectYear").val())
-    datos.push($("#inputCCV").val())
 
+    //cree una clase tarjeta para crear un objeto y asi mandar al sessionStorage con sus propiedades
+    let tarjeta = new Tarjeta(number, name, mes, year, ccv)
+    sessionStorage.setItem("tarjeta", (JSON.stringify(tarjeta)))
+
+    //limpio los imputs
+    $("#inputNumero").val();
+    $("#inputNombre").val();
+    $("#selectMes").val();
+    $("#selectYear").val();
+    $("#inputCCV").val();
+
+    //imprimo el cartel , que la compra se realizo con exito
     $("#container2").append(`<h2>la compra fue realizada con exito</h2>`)
 
 }
