@@ -130,7 +130,8 @@ function imprimirMensaje() {
 
     })
 
-    $("#cantidad").val("")
+
+
 }
 
 //---------------------------------------------------------------------------------------------------------------
@@ -326,5 +327,28 @@ function comprarCompleta() {
 
     //imprimo el cartel , que la compra se realizo con exito
     $("#container2").append(`<h2>la compra fue realizada con exito</h2>`)
+    imprimirPdf()
+}
+
+function imprimirPdf() {
+    let c = $("#cantidad").val()
+    for (algo of datos) {
+        $("#container2").prepend(`<div id="boleta">
+                                    <h2>Pedido final de compra</h2>
+                                    <h3>Pedido: ${algo.nombre_hamburguesa}</h3>
+                                    <h3>Precio: ${algo.precio_hamburguesa} $ </h3>
+                                    <h3>Cantidad de pedido: ${c} </h3>
+                                    <h3>Precio total: ${algo.precio_hamburguesa*c} $ </h3>
+                                                                            </div>`)
+
+    }
+
+    for (algo of arrayDireccion) {
+        $("#boleta").append(`<h3> direccion: ${algo.direccion}  </h3>
+                             <h3> altura:    ${algo.altura}     </h3>
+                             <h3> localidad: ${algo.localidad}  </h3>`)
+    }
+
+
 
 }

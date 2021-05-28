@@ -17,12 +17,20 @@
 #container2>div>h2 {
     color: #28a745;
     font-size: 30px;
+    text-align: center;
 }
 
 body {
     background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/03/70/92/9057b6fa2816639.jpg");
-    background-repeat: repeat-x;
     background-size: cover;
+}
+
+#boleta {
+    background-color: #a41e25;
+    border-radius: 15px;
+    margin-top: 12px;
+    padding: 20px;
+    border: 9px outset black;
 }
 
 #h2Guardado {
