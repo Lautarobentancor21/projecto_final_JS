@@ -326,7 +326,8 @@ function comprarCompleta() {
     $("#inputCCV").val();
 
     //imprimo el cartel , que la compra se realizo con exito
-    $("#container2").append(`<h2>la compra fue realizada con exito</h2>`)
+    $("#container2").append(`<h2>la compra fue realizada con exito</h2>
+                             <h2>la entrega llega en 30m</h2>                                       `)
     imprimirPdf()
 }
 
